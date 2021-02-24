@@ -1,8 +1,16 @@
-## Welcome to GitHub Pages
+## 云-端一体架构
 
-You can use the [editor on GitHub](https://github.com/xuyinghui8888/vision_techs/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+Pylivekit
+walle framework
+python vm 
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+SEI 消息
+
+端上算法：受到主播端侧资源和性能的限制，看点端侧的特征模型在参数量和计算量上都有一定的要求。为此，我们以云端的模型作为teacher网络，端侧采用小模型作为student网络，借鉴蒸馏学习的架构来进行知识迁移。下图展示了我们看点端侧特小模型蒸馏算法框架图，其中有两个问题是我们关注的重点：
+1. 需要迁移哪些知识
+2. 如何高效的进行知识迁移
+
+
 
 ### Markdown
 
